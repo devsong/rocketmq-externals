@@ -1,4 +1,4 @@
-# RocketMQ Externals
+# [Apache RocketMQ](https://github.com/apache/rocketmq) Community Projects
 
 There are many of the Apache RocketMQ external projects, which is born from [Apache RocketMQ Improvement Proposal](https://github.com/apache/rocketmq/wiki/RocketMQ-Improvement-Proposal) and contributed and maintained by community. The PMC will lean towards developer community support, to help discovery and initial steps towards incubation in the external repository. Incubator Projects could graduate if they meet the following requirements.
 
@@ -6,7 +6,9 @@ There are many of the Apache RocketMQ external projects, which is born from [Apa
  * Used successfully in production by at least three independent end users which, in the PMC judgement, are of adequate quality and scope.
  * Have a healthy number of committers.
 
+# Docs
 
+[User Guide for Connect 中文版](./docs/connect/cn/README.md)
 
 # Graduated Projects
 
@@ -21,7 +23,11 @@ There are many of the Apache RocketMQ external projects, which is born from [Apa
 
 # Incubator Projects
 
+## [RocketMQ Operator](https://github.com/apache/rocketmq-operator)
+Deploys RocketMQ on Kubernetes. it is built using the Operator SDK, which is part of the Operator Framework.
+
 ## [RocketMQ Client Nodejs](https://github.com/apache/rocketmq-client-nodejs)
+
 
 ## RocketMQ-Console
 A newly designed RocketMQ's console using spring-boot.
@@ -51,7 +57,7 @@ This project is a data replicator between MySQL and other systems. For more deta
 
 
 ## Others
-[RocketMQ-Druid](https://github.com/druid-io/druid/tree/master/extensions-contrib/druid-rocketmq), [RocketMQ-Ignite](https://github.com/apache/ignite/tree/master/modules/rocketmq) and [RocketMQ-Storm](https://github.com/apache/storm/tree/master/external/storm-rocketmq) integration can be found in those repositories.
+[RocketMQ-Ignite](https://github.com/apache/ignite/tree/master/modules/rocketmq) and [RocketMQ-Storm](https://github.com/apache/storm/tree/master/external/storm-rocketmq) integration can be found in those repositories.
 
 ## Contribution
 
